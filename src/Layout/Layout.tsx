@@ -7,11 +7,13 @@ type Props = {};
 
 const Layout = (props: Props) => {
   return (
-    <>
+    <div className="page-container">
       <Header />
-      <Dashboard />
+      <div className="content-wrap">
+        <Dashboard />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
