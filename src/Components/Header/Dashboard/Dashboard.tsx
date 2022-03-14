@@ -6,7 +6,7 @@ type Props = {};
 
 const Dashboard = (props: Props) => {
   const columns = [
-    { field: "code", header: "Code" },
+    { field: "code", header: "Code", sortable: true},
     { field: "name", header: "Name" },
     { field: "category", header: "Category" },
     { field: "quantity", header: "Quantity" },

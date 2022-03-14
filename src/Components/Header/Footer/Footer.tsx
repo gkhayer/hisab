@@ -4,8 +4,8 @@ type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <div className="footer">
-      <div className="">Footer</div>
+    <div className="grid footer">
+      <div className="col">Footer</div>
     </div>
   );
 };
