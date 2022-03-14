@@ -7,6 +7,9 @@ type DataTableProps = {
     field: string;
     header: string;
     sortable?: boolean;
+    colStyle?: React.CSSProperties
+    exportable?: boolean;
+    body?: any
   }[];
   data: any;
 };
@@ -19,7 +22,11 @@ const DataTableComponent = ({ columns, data }: DataTableProps) => {
         field={col.field}
         header={col.header}
         sortable={col.sortable}
+        style={col.colStyle}
+        exportable={col.exportable}
+        body={col.body}
       />
+      
     );
   });
 
