@@ -1,6 +1,6 @@
 import React from "react";
-import Dashboard from "../Components/Header/Dashboard/Dashboard";
-import Footer from "../Components/Header/Footer/Footer";
+import Dashboard from "../Components/Dashboard/Dashboard";
+import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 
 type Props = {};
